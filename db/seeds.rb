@@ -140,16 +140,7 @@ skin = Clinic.create!(
   category: 'Dermatology'
 )
 
-# clinics aka internal medicine
- Clinic.create!(
-   name: '',
-   telephone: '',
-   hours: '',
-   address: '',
-   eng_op: '',
-   category: 'Clinic'
- )
-
+# Internal medicine
  takahashi = Clinic.create!(
   name: 'Takahashi Clinic',
   telephone: '03-3551-5955',
