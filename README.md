@@ -8,6 +8,7 @@ GET all clinics
 <br>
 <code>GET http://localhost:3000/api/v1/clinics</code>
 <br>
+<br>
 GET a single clinic
 <br>
 <code> GET http://localhost:3000/api/v1/clinics/:id</code>
