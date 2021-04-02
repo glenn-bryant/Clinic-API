@@ -165,4 +165,126 @@ think = Clinic.create!(
   category: 'Clinic'
 )
 
+# Eye doctors
+
+aoyama_eye = Clinic.create!(
+  name: 'Minami Aoyama Eye Clinic',
+  telephone: '03-5772-1451',
+  hours: '9:30-12:00, 14:00-17:30',
+  address: 'Renai Aoyama Bldg 4F 3-3-11 Kita Aoyama, Minato-ku, Tokyo, 107-0061',
+  eng_op: 'Available',
+  category: 'Eye doctor'
+)
+
+musashi_eye = Clinic.create!(
+  name: 'Musashi Eye Clinic',
+  telephone: '03-5760-6695',
+  hours: 'Mon, Tue, Thu, Fri 9:30-12:30,14:30-18:00, Sat 9:30-12:30',
+  address: '1-14-1-102 Kaminoge, Setagaya-ku, Tokyo 158-0093',
+  eng_op: 'Available',
+  category: 'Eye doctor'
+)
+
+stars_eye = Clinic.create!(
+  name: "Star's Eye Clinic",
+  telephone: '03-3505-9981',
+  hours: 'Mon-Fri 10:00-13:30, 15:00-19:00; Sat 10:00-15:00',
+  address: '2-11-15-4F Akasaka, Minato-ku, Tokyo 107-0052',
+  eng_op: 'Unavailable',
+  category: 'Eye doctor'
+)
+
+# ear nose throat Doctors
+
+hiro_clinic = Clinic.create!(
+  name: 'Hiro-Yama Clinic',
+  telephone: '03-3437-6376',
+  hours: 'Mon, Tue, Thu, Fri 9:00-12:30, 14:00-17:30, Sat 9:00-12:00',
+  address: '2-5-1 Shiba Daimon, Minato-ku, Tokyo 105-0012',
+  eng_op: 'Available',
+  category: 'ear nose throat doctor'
+)
+
+# foot doctor
+
+ando_ortho = Clinic.create!(
+  name: "Dr. Ando's Orthopedic Clinic",
+  telephone: '03-3350-6956',
+  hours: 'Mon-Fri 9:00-12:00, 14:30-17:30; Sat 9:00-12:00 (After hours available)',
+  address: 'Kurihashi Bldg. 3F, 3-13-5 Shinjuku, Shinjuku-ku, Tokyo 160-0022',
+  eng_op: 'Available',
+  category: 'foot doctor',
+)
+
+# pediatrics
+
+ aiiku = Clinic.create!(
+  name: 'Aiiku Hospital',
+  telephone: '03-6453-7300',
+  hours: 'Check Homepage',
+  address: '1-16-10 Shibaura, Minato-ku, Tokyo 105-8321',
+  eng_op: 'Unavailable',
+  category: 'pediatrics'
+)
+
+national_med = Clinic.create!(
+  name: 'National Medical Clinic',
+  telephone: '03-3473-2057',
+  hours: '	Mon-Fri 9:00-12:00, 13:30 – 17:00; Sat 9:00-12:00',
+  address: '5-16-11-202 Minamiazabu, Minato-ku, Tokyo 106-0047',
+  eng_op: 'Available',
+  category: 'pediatrics'
+)
+
+med_hiroo = Clinic.create!(
+  name: 'Medical Clinic Hiroo',
+  telephone: '03-3444-7070',
+  hours: 'Mon-Fri 9:00-12:30, 14:00-17:30; Wed and Sat 9:00-12:00',
+  address: '5-16-4 Hiroo, Shibuya-ku, Tokyo 150-0012',
+  eng_op: 'Availavle',
+  category: 'pediatrics'
+)
+
+# plastic surgery
+
+plaza_plastic = Clinic.create!(
+  name: 'Plaza Plastic Surgery (Plaza Clinic)',
+  telephone: '03-5475-2345',
+  hours: '9:30-18:00',
+  address: '5-5-1 Hiroo, Shibuya-ku, Tokyo 150-0012',
+  eng_op: 'Available',
+  category: 'plastic surgery'
+)
+
+# psychiatry
+
+matsuzawa = Clinic.create!(
+  name: 'Tokyo Metropolitan Matsuzawa Hospital',
+  telephone: '03-3303-7211',
+  hours: 'Mon-Fri 8:30-17:15 (After hours available)',
+  address: '2-1-1 Kamikitazawa, Setagaya-ku, Tokyo 156-0057',
+  eng_op: 'Unavailable',
+  category: 'psychiatry'
+)
+
+# chiropractor
+
+s = Clinic.create!(
+  name: 'S Chiropractic Center Sports & Wellness',
+  telephone: '03-6459-2568',
+  hours: 'Mon-Sat 10:30-20:00 (Closed Sundays & holidays)',
+  address: '5F City Roppongi First Bldg., 4-5-15 Roppongi, Minato-ku, Tokyo 106-0032',
+  eng_op: 'Available',
+  category: 'chiropractor'
+)
+
+tokyo_chiro = Clinic.create!(
+  name: 'Tokyo Chiropractic',
+  telephone: '03-3478-2713',
+  hours: 'Mon-Sat 10:00-19:00',
+  address: 'Daini-Seibo Bldg 3F 3-5-2 Kita-Aoyama, Minato-ku, Tokyo 107-0061',
+  eng_op: 'Available',
+  category: 'chiropractor'
+)
+
 puts 'Seeds Created!'
