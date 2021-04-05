@@ -213,7 +213,7 @@ ando_ortho = Clinic.create!(
   hours: 'Mon-Fri 9:00-12:00, 14:30-17:30; Sat 9:00-12:00 (After hours available)',
   address: 'Kurihashi Bldg. 3F, 3-13-5 Shinjuku, Shinjuku-ku, Tokyo 160-0022',
   eng_op: 'Available',
-  category: 'foot doctor',
+  category: 'foot doctor'
 )
 
 # pediatrics
