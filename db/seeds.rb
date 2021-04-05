@@ -15,7 +15,8 @@ luke = Clinic.create!(
   hours: 'Mon-Fri 8:30-17:00 (After hours available)',
   address: '9-1 Akashi-cho, Chuo-ku, Tokyo 104-8560',
   eng_op: 'Available',
-  category: 'General Hospital'
+  category: 'General Hospital',
+  website: 'http://hospital.luke.ac.jp/eng/index.html'
 )
 
 bokutoh = Clinic.create!(
