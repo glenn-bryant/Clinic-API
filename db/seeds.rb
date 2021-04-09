@@ -242,7 +242,7 @@ med_hiroo = Clinic.create!(
   telephone: '03-3444-7070',
   hours: 'Mon-Fri 9:00-12:30, 14:00-17:30; Wed and Sat 9:00-12:00',
   address: '5-16-4 Hiroo, Shibuya-ku, Tokyo 150-0012',
-  eng_op: 'Availavle',
+  eng_op: 'Available',
   category: 'pediatrics'
 )
 
