@@ -1,6 +1,8 @@
 ## Tokyo English-Speaking Clinics API
 
 This is a Ruby on Rails API containing JSON of medical facilities in Tokyo that have English-speaking doctors. Information for these facilities was taken from the US Embassy in Tokyo (<a href a = "https://jp.usembassy.gov/u-s-citizen-services/doctors/tokyo-doctors/"> https://jp.usembassy.gov/u-s-citizen-services/doctors/tokyo-doctors/</a>). There are no authenticity tokens, so feel free to use this API as you wish. However, if used, please be sure to give me credit.
+
+EDIT: I have now added websites as a key to the API.
 <br>
 <br>
 ## Clinics
