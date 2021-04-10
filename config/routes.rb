@@ -5,4 +5,5 @@ Rails.application.routes.draw do
       resources :clinics, only: [:index, :show]
     end
   end
+  root to: "pages#home"
 end
