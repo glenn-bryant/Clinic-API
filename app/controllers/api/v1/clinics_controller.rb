@@ -14,8 +14,8 @@ class Api::V1::ClinicsController < Api::V1::BaseController
     @clinic = Clinic.find(params[:id])
   end
 
-   def render_error
+  def render_error
     render json: { errors: "Not authenticated" },
-      status: 403
+    status: 403
   end
 end
